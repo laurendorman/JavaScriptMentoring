@@ -24,5 +24,9 @@
   "homepage": "https://github.com/fahey252/JavaScriptMentoring",
   "dependencies": {
     "express": "^4.13.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^1.0.0"
   }
 }

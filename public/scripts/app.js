@@ -1,1 +1,3 @@
-window.console.log('Start.');
+var message = "Start.";
+
+window.console.log(message);
