@@ -7,7 +7,7 @@ $ git clone https://github.com/fahey252/JavaScriptMentoring.git
 ```
 
 ```
-$ npm init
+$ npm install
 ```
 
 ```
