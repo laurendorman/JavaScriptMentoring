@@ -3,11 +3,14 @@ Mentoring at Cardinal Solution on Getting Legit With JavaScript.  Focus on learn
 
 ## To Get Started
 ```
-$git clone https://github.com/fahey252/JavaScriptMentoring.git
+$ git clone https://github.com/fahey252/JavaScriptMentoring.git
 ```
 
 ```
 $ npm init
 ```
 
-Launch your web browser and go to http://localhost:3000
+```
+$ gulp serve
+```
+Will laucnh a browser with your changes.

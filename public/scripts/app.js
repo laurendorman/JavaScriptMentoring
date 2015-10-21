@@ -1,3 +1,5 @@
-var message = "Start.";
+var messages = {
+    init: "Start."
+};
 
-window.console.log(message);
+window.console.log(messages.init);

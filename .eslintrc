@@ -41,7 +41,6 @@
 
   "rules": {
     ////////// Possible Errors //////////
-
     "comma-dangle": 2,         // disallow trailing commas in object literals
     "no-cond-assign": 2,          // disallow assignment in conditional expressions
     "no-console": 2,              // disallow use of console (off by default in the node environment)
@@ -69,9 +68,7 @@
     "valid-jsdoc": 2,             // Ensure JSDoc comments are valid (off by default)
     "valid-typeof": 2,            // Ensure that the results of typeof are compared against a valid string
 
-
     ////////// Best Practices //////////
-
     "block-scoped-var": 2,      // treat var statements as if they were block scoped (off by default)
     "complexity": 2,            // specify the maximum cyclomatic complexity allowed in a program (off by default)
     "consistent-return": 2,     // require return statements to either always or never specify values
@@ -120,13 +117,10 @@
     "wrap-iife": 2,             // require immediate function invocation to be wrapped in parentheses (off by default)
     "yoda": 2,                  // require or disallow Yoda conditions
 
-
     ////////// Strict Mode //////////
     "strict": 2,          // controls location of Use Strict Directives
 
-
     ////////// Variables //////////
-
     "no-catch-shadow": 2,             // disallow the catch clause parameter name being the same as a variable in the outer scope (off by default in the node environment)
     "no-delete-var": 2,               // disallow deletion of variables
     "no-label-var": 2,                // disallow labels that share a name with a variable
@@ -138,9 +132,7 @@
     "no-unused-vars": 2,              // disallow declaration of variables that are not used in the code
     "no-use-before-define": 2,        // disallow use of variables before they are defined
 
-
     ////////// Node.js //////////
-
     "handle-callback-err": 2,   // enforces error handling in callbacks (off by default) (on by default in the node environment)
     "no-mixed-requires": 2,     // disallow mixing regular variable and require declarations (off by default) (on by default in the node environment)
     "no-new-require": 2,        // disallow use of new operator with the require function (off by default) (on by default in the node environment)
@@ -149,9 +141,7 @@
     "no-restricted-modules": 2, // restrict usage of specified node modules (off by default)
     "no-sync": 2,               // disallow use of synchronous methods (off by default)
 
-
     ////////// Stylistic Issues //////////
-
     "brace-style": 2,               // enforce one true brace style (off by default)
     "camelcase": 2,                 // require camel case names
     "comma-spacing": 2,             // enforce spacing before and after comma
@@ -180,7 +170,7 @@
     "one-var": 2,                   // allow just one var statement per function (off by default)
     "operator-assignment": 2,       // require assignment operator shorthand where possible or prohibit it entirely (off by default)
     "padded-blocks": 2,             // enforce padding within blocks (off by default)
-    "quote-props": 2,               // require quotes around object literal property names (off by default)
+    "quote-props": 0,               // require quotes around object literal property names (off by default)
     "quotes": 2,                    // specify whether double or single quotes should be used
     "semi": 2,                      // require or disallow use of semicolons instead of ASI
     "sort-vars": 2,                 // sort variables within the same declaration block (off by default)
@@ -196,13 +186,11 @@
 
 
     ////////// ECMAScript 6 //////////
-
     "no-var": 0,          // require let or const instead of var (off by default)
     "generator-star-spacing": 2,  // enforce the position of the * in generator functions (off by default)
 
 
     ////////// Legacy //////////
-
     "max-depth": 2,       // specify the maximum depth that blocks can be nested (off by default)
     "max-len": 2,         // specify the maximum length of a line in your program (off by default)
     "max-params": 2,      // limits the number of parameters that can be used in the function declaration. (off by default)
