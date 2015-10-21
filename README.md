@@ -1,5 +1,5 @@
 # JavaScript Mentoring
-Mentoring at Cardinal Solution on Getting Legit With JavaScript.  Focus on learning VanillaJS.
+Mentoring at Cardinal Solutions on Getting Legit With JavaScript.  Focus on learning VanillaJS.
 
 ## To Get Started
 ```
@@ -13,4 +13,4 @@ $ npm install
 ```
 $ gulp serve
 ```
-Will laucnh a browser with your changes.
+Will launch a browser with your changes.
