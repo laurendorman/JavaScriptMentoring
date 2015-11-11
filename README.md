@@ -20,11 +20,8 @@ $ gulp serve
 Will launch a browser with your changes.
 
 
-## Week 1
-[x] Read Chapters 2 & 3
-[ ]
-
-```
-$ gulp serve
-```
-Will launch a browser with your changes.
+## Reading
+Progress of JavaScript: The Good Parts
+- [x] Read Chapter 1
+- [x] Read Chapters 2 & 3
+- [ ] Read Chapters 3 - 6
