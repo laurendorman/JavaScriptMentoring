@@ -21,5 +21,10 @@ Will launch a browser with your changes.
 
 
 ## Week 1
-[] Read Chapters 2 & 3
-[] 
+[x] Read Chapters 2 & 3
+[ ]
+
+```
+$ gulp serve
+```
+Will launch a browser with your changes.
