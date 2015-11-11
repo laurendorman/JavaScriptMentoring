@@ -1,0 +1,33 @@
+{
+  "name": "FaheyJavaScriptMentoring",
+  "version": "0.0.1",
+  "description": "Mentoring at Cardinal Solution on Getting Legit With JavaScript. Focus on learning VanillaJS.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fahey252/JavaScriptMentoring.git"
+  },
+  "keywords": [
+    "javascript",
+    "mentoring",
+    "vanillaJS"
+  ],
+  "author": "Christopher Fahey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fahey252/JavaScriptMentoring/issues"
+  },
+  "homepage": "https://github.com/fahey252/JavaScriptMentoring",
+  "dependencies": {
+    "express": "^4.13.3"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.9.11",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^1.0.0"
+  }
+}
